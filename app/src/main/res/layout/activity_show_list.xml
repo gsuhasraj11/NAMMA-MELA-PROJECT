@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAMMA MELA"
+            android:textColor="#FFD700"
+            android:textStyle="bold"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tonight's Live Dramas"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- SHOW 1 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kantara Nataka"
+                android:textColor="#FFD700"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 7:00 PM"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue: Village Main Stage"
+                android:textColor="#CCCCCC"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/show1Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BOOK NOW"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="#FFD700"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+
+        <!-- SHOW 2 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veera Simha Drama"
+                android:textColor="#FFD700"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 8:30 PM"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue: Temple Grounds"
+                android:textColor="#CCCCCC"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/show2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BOOK NOW"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="#FFD700"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+
+        <!-- SHOW 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mahabharata Live"
+                android:textColor="#FFD700"
+                android:textStyle="bold"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: 9:00 PM"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venue: Open Air Theatre"
+                android:textColor="#CCCCCC"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+
+            <Button
+                android:id="@+id/show3Btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BOOK NOW"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:backgroundTint="#FFD700"
+                android:layout_marginTop="12dp"/>
+            <Button
+                android:id="@+id/fanWallBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OPEN FAN WALL"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:backgroundTint="#FFD700"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
